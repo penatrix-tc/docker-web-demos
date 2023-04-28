@@ -1,0 +1,16 @@
+{
+  "name": "rdm9-sample-problem-tester",
+  "version": "0.0.1",
+  "description": "RDM-9 Sample Problem automated tester using Taiko and Gauge",
+  "scripts": {
+    "test": "gauge run specs/"
+  },
+  "dependencies": {
+    "taiko": "latest",
+    "readline": "latest",
+    "node-fetch": "2.6.7",
+    "cheerio": "latest",
+    "cheerio-tableparser": "latest"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  solution:
+    build: ./code/.
+    ports:
+      - "8080:8080"
+    expose:
+      - "8080"
+    container_name: solution-container
+  tester:
+    build: ./tester/.
+    volumes:
+      - "./hostlog:/hostlog"
+    command: javascript
+    depends_on:
+      - solution
