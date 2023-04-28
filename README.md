@@ -11,7 +11,7 @@ Properties:
 * The API and the web page are hosted through port 8080
 
 Usage:
-To run and test an app, run
+To run and test an app, replace the "code" folder in the "sample-and-tester" folder with your code, and run
 ```
 docker-compose down -v && docker-compose up --build
 ```
